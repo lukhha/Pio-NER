@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukishyadav/Desktop/engineering/case_studies/ner_casestudy/mlruns/871896506229020652/9db051f6cc0f4affaad3ace20ef5501d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '871896506229020652'
+lifecycle_stage: active
+run_id: 9db051f6cc0f4affaad3ace20ef5501d
+run_name: intelligent-eel-228
+run_uuid: 9db051f6cc0f4affaad3ace20ef5501d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719147985765
+status: 1
+tags: []
+user_id: lukishyadav
