@@ -22,7 +22,7 @@ NER Architecture
 
 ```mermaid
 graph TD;
-    MLflow remote system-->Data Scientist local system;
+    A{MLflow remote system}-->B{Data Scientist local system};
     A-->C;
     B-->D;
     C-->D;
