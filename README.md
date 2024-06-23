@@ -1,6 +1,8 @@
 
 # Pio-NER
 
+This is a proposal walkthrough. For notebook walk through please open main_notebook.ipynb
+
 Publicis sapient Input-to-Ouput Named Entity Recognition is a tool that will help our customers to extract insights from Natural Language. 
 
 While the name has Named Entity Recognition in it, it is well versed with multiple tasks such as: 
@@ -11,6 +13,17 @@ While the name has Named Entity Recognition in it, it is well versed with multip
 
 We will today dive into NER tagging functionality of the same. 
 
+1. Read the sentences from OLAP (postgres) & OLTP (data-lake) database. 
+2. Run them through inference pipeline. 
+3. Store the results back in the database
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 
