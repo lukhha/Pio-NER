@@ -27,7 +27,9 @@ graph TD;
     B --> A;
     A --> C["Amazon S3, ECR, EKS, EC2"];
     A --> D["GitHub runner (CI/CD)"];
+    D --> A;
     C --> D;
+    D --> C;
 ```
 
 
