@@ -26,7 +26,6 @@ graph TD;
     B-->A;
     A-->C{Amazon s3,ECR,EKS,EC2};
     C-->D{github runner(CICD)};
-    C-->D;
 ```
 
 
