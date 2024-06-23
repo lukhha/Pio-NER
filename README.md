@@ -32,6 +32,27 @@ graph TD;
     D --> C;
 ```
 
+```mermaid
+block-beta
+    columns 3
+    doc>"Data Scientist Local"]:3
+    space down1<[" "]>(down) space
+
+  block:e:3
+          l["Github Runner (CICD)"]
+          m("MLflow Server")
+          r["Github"]
+  end
+    space down2<[" "]>(down) space
+    db[("AWS")]:3
+    space:3
+    EC2,ECR,EKS space S3bucket
+    db --> EC2,ECR,EKS
+    S3bucket --> db
+    EC2,ECR,EKS --> S3bucket
+    style m fill:#d6d,stroke:#333,stroke-width:4px
+```
+
 
 
 
