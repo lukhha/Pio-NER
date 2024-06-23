@@ -44,12 +44,12 @@ block-beta
           r["Github"]
   end
     space down2<[" "]>(down) space
-    db[("AWS")]:3
-    db[("AWS")]:3
+    aws[("AWS")]:3
+    db[("AWS POSTGRES")]:3
     space:3
     EC2,ECR,EKS space S3bucket
-    db <--> EC2,ECR,EKS
-    S3bucket <--> db
+    aws <--> EC2,ECR,EKS
+    S3bucket <--> aws
     EC2,ECR,EKS <--> S3bucket
     style m fill:#d6d,stroke:#333,stroke-width:4px
 ```
