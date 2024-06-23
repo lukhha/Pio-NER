@@ -4,6 +4,8 @@ mlflow models build-docker -m runs:/<run_id>/model -n <image_name> --enable-mlse
 
 mlflow models build-docker -m runs:/1d917a3a56d849c9bf2bf48afc287ba4/model -n mlflow_first --enable-mlserver
 
+mlflow models serve -m runs:/f768fdf4a48c40b6b5c3c14408e5ecff/model -p 5000 --no-conda
+
 
 ### Reference for mlflow build-docker fail
 
