@@ -20,8 +20,9 @@ We will today dive into NER tagging functionality of the same.
 
 NER Architecture
 
-mermaid
+
 ```
+mermaid
 graph TD;
     A[MLflow remote server] --> B[Data Scientist local system];
     B --> A;
