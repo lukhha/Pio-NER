@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukishyadav/Desktop/engineering/case_studies/ner_casestudy/mlruns/871896506229020652/d201f65977f6408d84f30b411956d7c4/artifacts
+end_time: 1719077924743
+entry_point_name: ''
+experiment_id: '871896506229020652'
+lifecycle_stage: active
+run_id: d201f65977f6408d84f30b411956d7c4
+run_name: capable-auk-759
+run_uuid: d201f65977f6408d84f30b411956d7c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719077924512
+status: 4
+tags: []
+user_id: lukishyadav

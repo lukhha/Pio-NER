@@ -1,0 +1,12 @@
+datasets:
+- nlpso/m2m3_fine_tuning_ref_cmbert_iob2
+language: fr
+tag: token-classification
+widget:
+- example_title: 'Noisy entry #1'
+  text: "Duflot, loueur de carrosses, r. de Paradis-\P505\PPoissonni\xE8re, 22."
+- example_title: 'Noisy entry #2'
+  text: "Du\u017Four el Besnard, march, de bois \xE0 bruler,\Pquai de la Tournelle,\
+    \ 17. etr. des Foss\xE9s-\PSBernard. 11.\PD\xED"
+- example_title: 'Ground-truth entry #1'
+  text: "Dufour (Charles), \xE9picier, r. St-Denis\P\u261E\P332"

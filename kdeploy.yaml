@@ -1,0 +1,15 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "ner"
+  namespace: "ner"
+spec:
+  predictor:
+    model:
+      modelFormat:
+        name: mlflow
+      protocolVersion: v2
+      storageUri: "runs:/e8b2a54edc2c46a4b4f83ec458021a4d/model"
+
+
+     

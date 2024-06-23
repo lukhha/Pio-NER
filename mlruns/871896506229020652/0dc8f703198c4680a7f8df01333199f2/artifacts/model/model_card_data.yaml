@@ -1,0 +1,36 @@
+datasets:
+- conll2003
+language: en
+license: mit
+model-index:
+- name: dslim/bert-base-NER
+  results:
+  - dataset:
+      config: conll2003
+      name: conll2003
+      split: test
+      type: conll2003
+    metrics:
+    - name: Accuracy
+      type: accuracy
+      value: 0.9118041001560013
+      verified: true
+    - name: Precision
+      type: precision
+      value: 0.9211550382257732
+      verified: true
+    - name: Recall
+      type: recall
+      value: 0.9306415698281261
+      verified: true
+    - name: F1
+      type: f1
+      value: 0.9258740048459675
+      verified: true
+    - name: loss
+      type: loss
+      value: 0.48325642943382263
+      verified: true
+    task:
+      name: Token Classification
+      type: token-classification

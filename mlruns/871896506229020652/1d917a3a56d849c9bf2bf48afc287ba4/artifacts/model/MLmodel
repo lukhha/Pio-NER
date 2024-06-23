@@ -1,0 +1,34 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.transformers
+    model_binary: model
+    python_version: 3.8.19
+  transformers:
+    code: null
+    components:
+    - tokenizer
+    framework: pt
+    instance_type: TokenClassificationPipeline
+    model_binary: model
+    pipeline_model_type: BertForTokenClassification
+    source_model_name: dslim/bert-base-NER
+    task: ner
+    tokenizer_type: BertTokenizerFast
+    transformers_version: 4.30.2
+mlflow_version: 2.8.0
+model_size_bytes: 431847756
+model_uuid: bb82b045de7b43728f78c8003eb61a1c
+run_id: 1d917a3a56d849c9bf2bf48afc287ba4
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: values
+  type: dataframe
+signature:
+  inputs: '[{"type": "string"}]'
+  outputs: '[{"type": "string"}]'
+  params: null
+utc_time_created: '2024-06-22 07:20:17.985723'
