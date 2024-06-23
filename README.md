@@ -15,10 +15,11 @@ We will today dive into NER tagging functionality of the same.
 
 1. Read the sentences from OLAP (postgres) & OLTP (data-lake) database. 
 2. Run them through inference pipeline. 
-3. Store the results back in the database
+3. Store the results back in the database.
+4. Monitor the results through Dash (In super flexible way)
 
 
-NER Architecture
+Proposed Architecture
 
 ```mermaid
 block-beta
@@ -46,6 +47,15 @@ block-beta
     style m fill:#d6d,stroke:#333,stroke-width:4px
 
 ```
+
+
+How the entire pipeline works:
+1. Data Scientists will ssh into remote system (running MLFLOW server) through Visual Studio Code. 
+2. Will create their own version of notebooks and run experiments (in super flexible way)
+3. Once they are happy with the results, will copy the run_id and past it in the dockerfile.
+4. This will trigger a CICD pipeline that will psuh the Docker to ECR and deploy this container through EKS.
+5. Once live, inference pipeline will run predictions and store results in POSTGRES. (Input data will be read from postgres as well) 
+6. This data will then be monitored using customised plots powered by DASH.
 
 
 
