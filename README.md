@@ -18,9 +18,11 @@ We will today dive into NER tagging functionality of the same.
 3. Store the results back in the database
 
 
+NER Architecture
+
 ```mermaid
 graph TD;
-    A-->B;
+    MLflow remote system-->Data Scientist local system;
     A-->C;
     B-->D;
     C-->D;
