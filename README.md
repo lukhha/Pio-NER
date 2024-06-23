@@ -45,6 +45,7 @@ block-beta
   end
     space down2<[" "]>(down) space
     db[("AWS")]:3
+    db[("AWS")]:3
     space:3
     EC2,ECR,EKS space S3bucket
     db <--> EC2,ECR,EKS
