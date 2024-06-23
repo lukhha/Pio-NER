@@ -26,16 +26,11 @@ graph TD;
     A["MLflow remote server"] --> B["Data Scientist local system"];
     B --> A;
     A --> C["Amazon S3, ECR, EKS, EC2"];
-    C --> D["GitHub runner (CI/CD)"];
+    A --> D["GitHub runner (CI/CD)"];
+    C --> D;
 ```
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+
 
 
 
