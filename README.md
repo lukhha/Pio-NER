@@ -36,22 +36,27 @@ graph TD;
 block-beta
     columns 3
     doc>"Data Scientist Local"]:3
-    space down1<[" "]>(down) space
+    space down1<[" "]>(updown) space
 
   block:e:3
           l["Github Runner (CICD)"]
           m("MLflow Server")
-          r["Github"]
+          r["Github"]         
   end
-    space down2<[" "]>(down) space
-    aws[("AWS")]:3
-    db[("AWS POSTGRES")]:3
+
+    space updown <[" "]>(updown) space
+    aws["AWS"]:3
+    db[("AWS POSTGRES")]:2
     space:3
     EC2,ECR,EKS space S3bucket
     aws <--> EC2,ECR,EKS
     S3bucket <--> aws
     EC2,ECR,EKS <--> S3bucket
+    EC2,ECR,EKS <--> db
+    DASH <--> db
+
     style m fill:#d6d,stroke:#333,stroke-width:4px
+
 ```
 
 
