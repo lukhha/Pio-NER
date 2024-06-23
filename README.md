@@ -3,7 +3,7 @@
 
 This is a proposal walkthrough. For notebook walk through please open main_notebook.ipynb
 
-Publicis sapient Input-to-Ouput Named Entity Recognition is a tool that will help our customers to extract insights from Natural Language. 
+Publicis sapient Input-to-Ouput Named Entity Recognition is a platform that will help our customers to extract insights from Natural Language. 
 
 While the name has Named Entity Recognition in it, it is well versed with multiple tasks such as: 
 1. Text2SQL
