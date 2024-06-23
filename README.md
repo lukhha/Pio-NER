@@ -15,12 +15,12 @@ While the name has Named Entity Recognition in it, it is well versed with multip
 
 We will today dive into NER tagging functionality of the same. 
 
+```bash
 1. Read the sentences from OLAP (postgres) & OLTP (data-lake) database. 
 2. Run them through inference pipeline. 
 3. Store the results back in the database.
 4. Monitor the results through Dash (In super flexible way)
-
-
+```
 Proposed Architecture (PipeLine Workflow explained below)
 
 ```mermaid
