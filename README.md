@@ -19,7 +19,7 @@ We will today dive into NER tagging functionality of the same.
 4. Monitor the results through Dash (In super flexible way)
 
 
-Proposed Architecture
+Proposed Architecture (PipeLine Workflow explained below)
 
 ```mermaid
 block-beta
