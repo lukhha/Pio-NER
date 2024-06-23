@@ -47,9 +47,9 @@ block-beta
     db[("AWS")]:3
     space:3
     EC2,ECR,EKS space S3bucket
-    db --> EC2,ECR,EKS
-    S3bucket --> db
-    EC2,ECR,EKS --> S3bucket
+    db <--> EC2,ECR,EKS
+    S3bucket <--> db
+    EC2,ECR,EKS <--> S3bucket
     style m fill:#d6d,stroke:#333,stroke-width:4px
 ```
 
