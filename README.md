@@ -52,13 +52,14 @@ block-beta
 
 
 How the entire pipeline works:
+```bash
 1. Data Scientists will ssh into remote system (running MLFLOW server) through Visual Studio Code. 
 2. Will create their own version of notebooks and run experiments (in super flexible way)
 3. Once they are happy with the results, will copy the run_id and past it in the dockerfile.
 4. This will trigger a CICD pipeline that will psuh the Docker to ECR and deploy this container through EKS.
 5. Once live, inference pipeline will run predictions and store results in POSTGRES. (Input data will be read from postgres as well) 
 6. This data will then be monitored using customised plots powered by DASH.
-
+```
 
 
 
