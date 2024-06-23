@@ -23,10 +23,10 @@ NER Architecture
 
 ```mermaid
 graph TD;
-    A[MLflow remote server] --> B[Data Scientist local system];
+    A["MLflow remote server"] --> B["Data Scientist local system"];
     B --> A;
-    A --> C[Amazon S3, ECR, EKS, EC2];
-    C --> D[GitHub runner (CI/CD)];
+    A --> C["Amazon S3, ECR, EKS, EC2"];
+    C --> D["GitHub runner (CI/CD)"];
 ```
 
 ```mermaid
