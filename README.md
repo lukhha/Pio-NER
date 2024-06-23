@@ -28,4 +28,10 @@ graph TD;
     C-->D{github runner(CICD)};
 ```
 
+graph TD;
+    A[A] -->|go to B| B[B];
+    B -->|go to A| A;
+    B -->|go to C| C[C];
+    B -->|go to D| D[D];
+
 
